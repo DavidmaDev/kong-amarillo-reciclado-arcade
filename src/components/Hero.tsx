@@ -34,13 +34,12 @@ const Hero = () => {
           <div className="pixel-borders bg-arcade-brown p-4 max-w-md mx-auto rotate-3 hover:rotate-0 transition-transform duration-300">
             <div className="pixel-borders bg-arcade-black p-2">
               <div className="aspect-square bg-black relative overflow-hidden">
-                {/* Placeholder for arcade machine image */}
-                <div className="absolute inset-0 flex items-center justify-center bg-arcade-black text-arcade-yellow">
-                  <div className="text-center">
-                    <p className="text-2xl font-bold mb-2">DONKEY KONG</p>
-                    <p className="text-sm">Imagen de la Máquina</p>
-                  </div>
-                </div>
+                {/* Donkey Kong image */}
+                <img 
+                  src="https://raw.githubusercontent.com/gist/franfun/8e2363dcd79968b53c3817ce9cdeeb23/raw/b55e86ddb91a238261c25bebf4cda2778c837b28/donkey-kong-arcade.png" 
+                  alt="Donkey Kong Arcade Machine" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
