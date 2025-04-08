@@ -36,7 +36,7 @@ const Hero = () => {
               <div className="aspect-square bg-black relative overflow-hidden">
                 {/* Donkey Kong image */}
                 <img 
-                  src="https://raw.githubusercontent.com/gist/franfun/8e2363dcd79968b53c3817ce9cdeeb23/raw/b55e86ddb91a238261c25bebf4cda2778c837b28/donkey-kong-arcade.png" 
+                  src="/img/imagenHero.webp" 
                   alt="Donkey Kong Arcade Machine" 
                   className="w-full h-full object-cover"
                 />
