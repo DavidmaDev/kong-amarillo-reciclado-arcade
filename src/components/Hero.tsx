@@ -5,7 +5,8 @@ const Hero = () => {
   return (
     <section id="inicio" className="relative min-h-[80vh] flex items-center overflow-hidden bg-arcade-darkyellow">
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\"><rect width=\"10\" height=\"10\" fill=\"%23663300\"/></svg>')] bg-[length:20px_20px]"></div>
+        {/* Using encoded SVG to avoid parsing issues */}
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%3E%3Crect%20width%3D%2210%22%20height%3D%2210%22%20fill%3D%22%23663300%22%2F%3E%3C%2Fsvg%3E')] bg-[length:20px_20px]"></div>
       </div>
       
       <div className="container mx-auto px-4 py-12 flex flex-col md:flex-row items-center justify-between relative z-10">
